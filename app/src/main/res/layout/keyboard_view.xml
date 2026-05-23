@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#1E1E1E"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="සිං"
+            android:textColor="#FFB300"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="5dp"/>
+            
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tdboard"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:keyBackground="@android:color/transparent"
+        android:keyTextColor="#FFFFFF"
+        android:labelTextSize="18sp"
+        android:keyTextSize="20sp" />
+</LinearLayout>
